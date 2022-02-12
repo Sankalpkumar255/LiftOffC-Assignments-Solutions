@@ -9,8 +9,12 @@ int main()
     {
         printf("%d is greater than %d",x,y);
     }
-    else{
+    elseif(x<y){
         printf("%d is greater than %d",y,x);
+    }
+    elseif(x==y)
+    {
+        printf("Both numbers are equal.");
     }
     return 0;
 }
