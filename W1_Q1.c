@@ -2,12 +2,21 @@
 #include<conio.h>
 int main()
 {
-    int regd; 
+    char regd[3];
+    char name[50];
+    char branch[50];
+    char h[50];
     printf("Enter the Regd. No: ");
-    scanf("%d",&regd);
-    printf("My name is Sankalp Kumar.\n");
-    printf("My regd no. is %d\n",regd);
-    printf("My Branch name is Electronics ad Telecommunication Engg.\n");
-    printf("My hobbies are playing video games and coding.");
+    scanf("%s",&regd);
+    printf("Enter the name: ");
+    scanf("%s",&name);
+    printf("Enter the branch name: ");
+    scanf("%s",&branch);
+    printf("Enter your hobbies: ");
+    scanf("%s",&h);
+    printf("My name is %s\n",name);
+    printf("My regd no. is %s\n",regd);
+    printf("My Branch name is %s\n",branch);
+    printf("My hobbies are: %s",h);
     return 0;
 }
